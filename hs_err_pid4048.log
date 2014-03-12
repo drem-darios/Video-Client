@@ -1,0 +1,88 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3470), pid=4048, tid=10044
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0_01-b08
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (21.1-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000001eb800):  JavaThread "Unknown thread" [_thread_in_vm, id=10044, stack(0x0000000002340000,0x0000000002440000)]
+
+Stack: [0x0000000002340000,0x0000000002440000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000001eb800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=10044, stack(0x0000000002340000,0x0000000002440000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x000000013f4c0000 - 0x000000013f4f3000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x00000000770b0000 - 0x000000007725c000 	C:\windows\SYSTEM32\ntdll.dll
+0x0000000076f90000 - 0x00000000770af000 	C:\windows\system32\kernel32.dll
+0x000007fefd160000 - 0x000007fefd1cc000 	C:\windows\system32\KERNELBASE.dll
+0x000007fefd3e0000 - 0x000007fefd4bb000 	C:\windows\system32\ADVAPI32.dll
+0x000007fefd690000 - 0x000007fefd72f000 	C:\windows\system32\msvcrt.dll
+0x000007fefd9c0000 - 0x000007fefd9df000 	C:\windows\SYSTEM32\sechost.dll
+0x000007fefe070000 - 0x000007fefe19e000 	C:\windows\system32\RPCRT4.dll
+0x0000000076e90000 - 0x0000000076f8a000 	C:\windows\system32\USER32.dll
+0x000007fefd7d0000 - 0x000007fefd837000 	C:\windows\system32\GDI32.dll
+0x000007fefe5a0000 - 0x000007fefe5ae000 	C:\windows\system32\LPK.dll
+0x000007fefd5c0000 - 0x000007fefd68a000 	C:\windows\system32\USP10.dll
+0x000007fefb990000 - 0x000007fefbb84000 	C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_fa62ad231704eab7\COMCTL32.dll
+0x000007fefe5b0000 - 0x000007fefe621000 	C:\windows\system32\SHLWAPI.dll
+0x000007fefd590000 - 0x000007fefd5be000 	C:\windows\system32\IMM32.DLL
+0x000007fefdbb0000 - 0x000007fefdcb9000 	C:\windows\system32\MSCTF.dll
+0x000000006bc90000 - 0x000000006bd61000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x0000000067400000 - 0x0000000067acd000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fef33b0000 - 0x000007fef33b9000 	C:\windows\system32\WSOCK32.dll
+0x000007fefd540000 - 0x000007fefd58d000 	C:\windows\system32\WS2_32.dll
+0x000007fefe590000 - 0x000007fefe598000 	C:\windows\system32\NSI.dll
+0x000007fefb040000 - 0x000007fefb07b000 	C:\windows\system32\WINMM.dll
+0x0000000077280000 - 0x0000000077287000 	C:\windows\system32\PSAPI.DLL
+0x000000006f790000 - 0x000000006f79f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x000000006df90000 - 0x000000006dfb8000 	C:\Program Files\Java\jre7\bin\java.dll
+0x000000006f6a0000 - 0x000000006f6b5000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Program Files (x86)\Android\android-sdk\platforms\android-16\android.jar 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 60694 -testLoaderClass org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestLoader -loaderpluginname org.eclipse.jdt.junit.runtime -classNames com.videoclient.test.ClientTest
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_24
+CLASSPATH=.;C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip\C:\Program Files\Java\jdk1.6.0_24\bin;C:\Program Files\Java\jre7\bin;C:\Program Files\Java\javamail-1.4.3;C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip
+PATH=C:\Python26\Lib\site-packages\PyQt4\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Python26;C:\Program Files\Mercurial;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Barracuda\Network Connector\bin
+USERNAME=Owner
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 3984048k(1004180k free), swap 7966196k(4181116k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (21.1-b02) for windows-amd64 JRE (1.7.0_01-b08), built on Oct  3 2011 01:39:25 by "java_re" with unknown MS VC++:1600
+
+time: Wed Oct 17 21:24:59 2012
+elapsed time: 0 seconds
+
